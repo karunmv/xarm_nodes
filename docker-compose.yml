@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  ros-xarm:
+    privileged: true
+    volumes:
+      - '/etc/chrony/sources.d:/etc/chrony/sources.d/'
+      - '/run/chrony:/run/chrony'
+      - '/tmp/.X11-unix/:/tmp/.X11-unix/:rw'
+    container_name: xarm_node
+    network_mode: host
+    image: ros-xarm
+    #entrypoint: /ROS/launch_example.sh
+    #tty: true
+  #moveit2:
