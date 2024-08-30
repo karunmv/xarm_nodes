@@ -1,5 +1,7 @@
 # ROS2 xArm Image
 
+NOTE: Please use the --recursive flag to clone this repo in order to clone the submodule repos along with the main branch
+
 Pull the xarm_nodes image and perform the following:
 
 ```sh
