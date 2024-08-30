@@ -1,4 +1,4 @@
-# ROS2 Xarm Image
+# ROS2 xArm Image
 
 Pull the xarm_nodes image and perform the following:
 
